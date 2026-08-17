@@ -2,21 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <!-- Task Requirement: Both Stylesheet Links -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
 </head>
 <body>
-    <div class="container">
+
+    <header>
         <h1>About Us</h1>
-        <p>Welcome to Dealership Website! We provide top-quality cars and excellent customer service.</p>
-        
-        <h2>Our Team</h2>
-        <div class="team-member">
-            <img src="https://via.placeholder.com/150" alt="Manager">
-            <h3>Jane Doe</h3>
-            <p><strong>Role:</strong> General Manager</p>
-            <p>Jane has over 10 years of experience in the automotive industry leading customer support teams.</p>
-        </div>
-    </div>
+        <p>Meet our dedicated team driving innovation and excellence.</p>
+    </header>
+
+    <main>
+        <section class="team-container">
+            
+            <!-- Team Member 1 -->
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=300" alt="Sarah Jenkins">
+                <h2>Sarah Jenkins</h2>
+                <p class="role">Lead Full-Stack Developer</p>
+                <p class="bio">Sarah oversees backend architecture and frontend integration with 6+ years of experience.</p>
+                <p class="email"><strong>Email:</strong> sarah.jenkins@example.com</p>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300" alt="John Doe">
+                <h2>John Doe</h2>
+                <p class="role">Frontend Developer & UI Specialist</p>
+                <p class="bio">John focuses on building responsive user interfaces and optimizing web performance.</p>
+                <p class="email"><strong>Email:</strong> john.doe@example.com</p>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300" alt="Amina Khan">
+                <h2>Amina Khan</h2>
+                <p class="role">Backend & Database Engineer</p>
+                <p class="bio">Amina manages API integrations, server configurations, and database security.</p>
+                <p class="email"><strong>Email:</strong> amina.khan@example.com</p>
+            </div>
+
+        </section>
+    </main>
+
 </body>
 </html>
